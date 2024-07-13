@@ -1,0 +1,33 @@
+{
+  "name": "mylib",
+  "version": "1.0.0",
+  "description": "\"just to know how publishing package in npm works\"",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "mylib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devdependencies": {
+    "typescript": "^5.5.3"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
