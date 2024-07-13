@@ -1,0 +1,2 @@
+# mylib
+npm sample lib
